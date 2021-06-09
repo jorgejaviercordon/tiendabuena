@@ -7,7 +7,7 @@ $dbname = "pruebas";
 $textoabuscar = $_POST['bus'];
 $opcion = $_POST['listadeopciones'];
 
-// Create connection
+// Create connection con el servidor
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection

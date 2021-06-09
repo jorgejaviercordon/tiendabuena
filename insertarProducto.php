@@ -7,7 +7,7 @@ $cod = $_POST['cod'];
 $descripcion = $_POST['descripcion'];
 $precio = $_POST['precio'];
 $stock = $_POST['stock'];
-// Create connection
+// Create connection con servidor
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection

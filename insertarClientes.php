@@ -8,7 +8,7 @@ $apellidos = $_POST['apellidos'];
 $dni = $_POST['dni'];
 $email = $_POST['email'];
 $fechadenacimiento = $_POST['fechadenacimiento'];
-// Create connection
+// Create connection con servidor
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
